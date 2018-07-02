@@ -6,7 +6,8 @@ OpenGLSudoku-master
 bubble-shooter-game 	
 	catch_me 	
 	client-server-simulation 	
-	flowing-fountain 	
+	flowing-fountain 
+	hawkeye
 	libraries 	
 	openGL-tankgame-master 	
 	pingpong like game 	
@@ -32,6 +33,7 @@ bubble-shooter-game
 	moving ship.cpp 	
 	mytetris.c 	
 	nuclearplant.c 
+	resort.c
 	selective repeat arq.cpp 	
 	singlly linked list.cpp 	
 	solar.c 	
