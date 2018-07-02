@@ -1,11 +1,40 @@
 # Computer-Graphics-Projects
 Computer graphics projects
 
-catch_me
-client_server_simulation
-flowing_fountain
-rubicks_cube
-simulation_of_taj_mahal
-tic_tac_toe
-solar_system
-tower_of_hanoi
+
+OpenGLSudoku-master
+bubble-shooter-game 	
+	catch_me 	
+	client-server-simulation 	
+	flowing-fountain 	
+	libraries 	
+	openGL-tankgame-master 	
+	pingpong like game 	
+	rubicks-cube 	
+	simulation-of-taj-mahal 	
+	solar-system 	
+	tic-tac-toe 	
+	tower_of_hanoi 	
+	bellman ford algorithm.cpp 
+	binarytree.cpp 	
+	bucket sorting.cpp 
+	cgprograms.txt 	
+	client-server(original).cpp 	
+	doubly linked list.cpp 	
+	dynamic sorting algorithm visualiser.cpp 	
+	edge game.c 	
+	encryption.cpp 	
+	first come first serve.cpp 	
+	ludo.cpp 	
+	memory blocks.c 	
+	mickey mouse face.cpp 	
+	minesweeper.cpp 	
+	moving ship.cpp 	
+	mytetris.c 	
+	nuclearplant.c 
+	selective repeat arq.cpp 	
+	singlly linked list.cpp 	
+	solar.c 	
+	stackqueue.cpp 	
+	torus.c 	
+	traffic signal.cpp
