@@ -1,2 +1,11 @@
 # Computer-Graphics-Projects
 Computer graphics projects
+
+catch_me
+client_server_simulation
+flowing_fountain
+rubicks_cube
+simulation_of_taj_mahal
+tic_tac_toe
+solar_system
+tower_of_hanoi
