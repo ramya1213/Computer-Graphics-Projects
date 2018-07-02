@@ -1,0 +1,33 @@
+# Project: Alderon
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o include/sudoku.o $(RES)
+LINKOBJ  = main.o include/sudoku.o $(RES)
+LIBS =  -L"lib" -lopengl32 -lglu32 -lglaux -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32  
+INCS =  -I"include"  -I"C:/Dev-Cpp/Games/New3d/include"  -I"C:/Dev-Cpp/Games/New3d/include" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"C:/Dev-Cpp/Games/New3d/include"  -I"C:/Dev-Cpp/Games/New3d/include" 
+BIN  = Alderon.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Alderon.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Alderon.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+include/sudoku.o: include/sudoku.cpp
+	$(CPP) -c include/sudoku.cpp -o include/sudoku.o $(CXXFLAGS)

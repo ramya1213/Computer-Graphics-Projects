@@ -1,0 +1,21 @@
+Options
+  -- Customize background
+  -- Customize difficulty
+  -- Calibrate frame rate
+
+Customize Background
+
+ -- Background color
+ -- Object behavior
+ 
+Customize Difficulty
+ -- Easy (checks your answers and shows what numbers are available)
+ -- Medium (checks your answers only)
+ -- Hard (Allows user to input incorrect answers)
+ -- X-pert (same as hard but allows search parameters for number of hints;
+
+Calibrate frame rate
+ -- lets you move the highlight square then answer if something is to fast or too slow
+    adjust the incriment by half then fine tune by 10 if you make a step back fine tune by 5;
+
+ 
